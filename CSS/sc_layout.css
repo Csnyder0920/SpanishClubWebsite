@@ -16,7 +16,6 @@
    =============================================
 */
 
-
 html {
 	height: 100%;
 	margin: 0; padding: 0; border: 0;
@@ -220,7 +219,7 @@ footer {
 @media only screen and (min-width: 769px) {
 
 html {
-	background-color:#ffff1e ;
+	background-image:"Images/WestHighSchool.jpg" ;
 }
 
 body {
