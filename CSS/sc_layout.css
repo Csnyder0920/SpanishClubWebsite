@@ -39,7 +39,7 @@ li a {
 
 li a:hover:not(.active) {
     background-color: #111;
-}
+  }
 
 .active {
     background-color: #ea0218;
@@ -107,20 +107,6 @@ body > header > nav ul li a:hover {
 	color: #ffff80;
 }
 
-body > header > nav ul li a:active {
-	color: #ffff80;
-}
-
-article {
-	position: relative;
-	display: block;
-}
-
-article header img {
-	display: block;
-	width: 100%;
-}
-
 article p {
     margin-left: 20px;
 	margin-right: 20px;
@@ -160,7 +146,7 @@ body > p {
 }
 
 body > img {
-	width: 100%;
+	width: 25%;
 }
 
 footer {
@@ -203,7 +189,7 @@ article p {
 
 article header img {
 	position: inherit;
-	width: 100%;
+	width: 50%;
 	display: block;
 }
 
@@ -263,16 +249,16 @@ footer {
 
 @media only screen and (min-width: 769px) {
 
-html {
-	background-color: #536334;
-}
+  html {
+  	background-color: #1f8e26;
+  }
 
-body {
-	width: 90%;
-	max-width: 1020px;
-	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
-	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
-	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
-}
+  body {
+  	width: 90%;
+  	max-width: 1020px;
+  	-moz-box-shadow: rgba(256, 0, 0, 0.9) 20px 0px 25px,  rgba(256, 0, 0, 0.9) -20px 0px 25px;
+  	-webkit-box-shadow: rgba(256, 0, 0, 0.9) 20px 0px 25px,  rgba(256, 0, 0, 0.9) -20px 0px 25px;
+  	box-shadow: rgba(256, 0, 0, 0.9) 20px 0px 25px,  rgba(256, 0, 0, 0.9) -20px 0px 25px;
+  }
 
 }
