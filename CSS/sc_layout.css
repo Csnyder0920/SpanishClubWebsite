@@ -12,6 +12,7 @@
 	unless superceded by other styles.
    =============================================
 */
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -56,9 +57,142 @@ li a:hover:not(.active) {
   top: 18px;
   left: 10px;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* div */
+.AboutText{
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
 
+.Ganndiv{
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 125px;
+}
+
+.Lipnickdiv{
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 125px;
+}
+
+.Tostadadiv{
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.Chicagodiv{
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.Pizzadiv{
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.Eventsdiv{
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.ExtraImages{
+  background-color: White;
+}
+/* Images */
+.Lipnick{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+}
+
+.Gann{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+}
+ .Tostada1{
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 50px;
+ }
+
+ .Tostada2{
+   margin-left: auto;
+   margin-right: auto;
+   padding-right: 50px;
+ }
+
+ .Chicago1{
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 50px;
+ }
+
+ .Chicago2{
+   margin-left: auto;
+   margin-right: auto;
+   padding-right: 50px;
+ }
+
+ .Flag1{
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 50px;
+ }
+
+ .Flag2{
+   margin-left: auto;
+   margin-right: auto;
+   padding-right: 50px;
+ }
+
+ .Pennies{
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 50px;
+   padding-left: 400px;
+   padding-right: 400px;
+ }
+/* Text */
 h1{
 	text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+h2{
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+h3 {
+text-align: center;
+padding-left: 150px;
+padding-right: 150px;
+}
+
+p{
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  size: 6px
 }
 
 html {
@@ -153,7 +287,7 @@ footer {
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	text-align: center;
 	font-size: 0.7em;
-	border-top: 2px solid #536334;
+	border-top: 2px solid #1f8e26;
 	padding-top: 10px;
 	padding-bottom: 20px;
 }
