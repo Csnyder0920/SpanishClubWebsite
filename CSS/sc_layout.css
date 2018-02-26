@@ -63,6 +63,14 @@ li a:hover:not(.active) {
     margin-right: auto;
     width: 50%;
 }
+/* iframe */
+.EmbededWeb{
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
 /* div */
 .AboutText{
   margin-left: auto;
